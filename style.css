@@ -217,7 +217,7 @@ nav a.active{
 ul li:hover{
   scale:0.8;
   background-color: #FF6B1A;
-
+  cursor:pointer;
 }
 .hero-section{
     width:100%;
@@ -256,8 +256,6 @@ ul li:hover{
     gap:1.8rem;
     margin-bottom:10rem;
 }
-
-
  .card{
     width:20rem;
     height:13rem;
@@ -273,6 +271,8 @@ ul li:hover{
 
 .card:hover{
     scale:1.2;
+    cursor:pointer;
+}
 }
 
 .card img{
